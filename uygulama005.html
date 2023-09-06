@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--kutuları sağa-sola kaydırmak için float kullanılır. 1.kutunun 2.kutunun yanına gelmesi için her ikisinede left yazmalıyız. Eğer sağ üstte olmalarını istiyorsak right yazarız-->
+    <div style="width: 300px; height:170px; background-color:rgb(156, 204, 0); border:5px solid #000;
+     color:#fff; font:bold 30px tahoma ; text-align:center;
+     padding:130px 0 0 0; float:left;">1.kutu</div>
+
+    <div style="width: 300px; height:170px; background-color:rgb(204, 0, 0); border:5px solid #000;
+     color:#fff; font:bold 30px tahoma ; text-align:center;
+     padding:130px 0 0 0; float:left; margin:0 0 0 20px;">2.kutu</div>
+    <!--her iki kutuyu sola hizaladıktan sonra aralarında boşluk kalması içim margin:0 0 0 20px; yazdık-->
+
+    <div style="width: 300px; height:170px; background-color:rgb(75, 0, 204); border:5px solid #000;
+     color:#fff; font:bold 30px tahoma ; text-align:center;
+     padding:130px 0 0 0; clear: both; ">3.kutu</div>
+     <!--3.kutu ilk iki kutunun floatından etkilenir bu yüzden onların altında kalır. 3.kutunun önceki kutulardan etkilenmemesi için clear:both; yazdık-->
+</body>
+</html>
