@@ -1,0 +1,34 @@
+.menu1{width:130px; height:160px; margin:10px 0 0 0; }
+.menu1 ul{margin:0; padding:0; list-style: none;}
+.menu1 ul li a{display: block; width:122px; height:24px; background:#fcc; color:#930; font:bold 12px tahoma; text-decoration:none; padding:8px 0 0 5px;  }
+.menu1 ul li a:hover{color:#fff; background:#930;} /*ok işaretiyle üzerine gelince yazı rengi ve arkaplanın rengi değişiyor*/
+
+.menu2{width:600px; height:32px; margin:10px 0 0 0; }
+.menu2 ul{margin:0; padding:0; list-style: none;}
+.menu2 ul li{float: left;}
+.menu2 ul li a{display: block; width:120px; height:24px; background:#fcc; color:#930; font:bold 12px tahoma; text-decoration:none; padding:8px 0 0 0; text-align: center;}
+.menu2 ul li a:hover{color:#fff; background:#930;}
+
+/*kutuların genişlik ve yüksekliklerini padding ile belirledik(menu2'de block'ların width ve height'ını yazmıştık ama menu3'te bunları yazmadık bunun yerine padding kullandık)*/
+/*menudeki seceneklerin hepsinin eşit genişlikte olmasını istiyorsak menu2deki gibi yaparız ama seceneklerin herbirinin gerektiği kadar genişlikte olmasını istiyorsak menu3'deki gibi yaparız*/
+.menu3{width:600px; height:32px; margin:10px 0 0 0; }
+.menu3 ul{margin:0; padding:0; list-style: none;}
+.menu3 ul li{float: left;}
+.menu3 ul li a{display: block; padding:9px 25px; background:#fcc; color:#930; font:bold 12px tahoma; text-decoration:none;}
+.menu3 ul li a:hover{color:#fff; background:#930;}
+
+.menu4{width:152px; height:170px; margin:10px 0 0 0;}
+.menu4 ul{margin:0; padding:0; list-style: none;}
+.menu4 ul li{position: relative;}
+.menu4 ul li a{display: block; width:150px; background:#fcc; color:#930; font:bold 12px tahoma; text-decoration:none; padding:9px 5px; border:1px solid #800;}
+.menu4 ul li a:hover{color:#fff; background:#930;}
+.menu4 ul li ul{display: none; position:absolute; left:162px; top:0;} /*listenin içindeki maddelerin gözükmesini istemediğimiz için bunu kullandık*/
+.menu4 ul li:hover ul{display: block;}
+
+.menu5{width:610px; height:150px; margin:50px 0 0 0;}
+.menu5 ul{margin:0; padding:0; list-style: none;}
+.menu5 ul li{float: left; position: relative;}
+.menu5 ul li a{display: block; width:150px; background:#fcc; color:#930; font:bold 12px tahoma; text-decoration:none; padding:9px 0; border:1px solid #800; text-align: center;}
+.menu5 ul li a:hover{color:#fff; background:#930;}
+.menu5 ul li ul{display: none; position: absolute; }
+.menu5 ul li:hover ul{display: block;}
