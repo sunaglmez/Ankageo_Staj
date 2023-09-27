@@ -1,0 +1,13 @@
+<table>
+        <thead>
+            <!-- Başlık satırları burada -->
+        </thead>
+        
+        <tbody>
+            <!-- Ana veri satırları burada -->
+        </tbody>
+
+        <tfoot>
+            <!-- Tablonun alt bilgi satırları burada -->
+        </tfoot>
+</table> 

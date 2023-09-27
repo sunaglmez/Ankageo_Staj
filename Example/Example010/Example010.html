@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="register.php">
+
+        <div> <!--alt alta gelmeleri için ayrı ayrı div içine alıyoruz-->
+         <label for="name">Adınız:</label>
+         <input type="text" id="name">  <!--AD: <input type="text"> şeklinde de yazabilirdik-->
+        </div>
+
+        <div>
+          <label for="surname">Soyadınız:</label>
+          <input type="text" id="surname"> 
+        </div>
+
+        <div>
+            <p>En sevdiğin Film nedir?</p>
+            <label for="film1">GodFather</label>
+            <input type="radio" id="film" name="filimler"> <!--radio'lara aynı name değerlerini verirsek sadece 1 seçim yapabiliriz. yani 2 tanesini aynı anda seçmemiş oluruz.-->
+
+            <label for="film2">Yüzüklerin efendisi</label>
+            <input type="radio" id="film2" name="filimler">
+        </div>
+
+        <div>
+            <label for="intro">Kendini Anlat:</label>
+            <textarea id="intro"></textarea>
+        </div>
+
+        <div>
+            <label for="cities">Şehirler</label>
+            <select name="" id="cities">
+                <option value="34">istanbul</option>
+                <option value="22">edirne</option>
+            </select>
+        </div>
+
+        <button type="submit">Kaydet</button>
+
+        
+    </form>
+</body>
+</html>
