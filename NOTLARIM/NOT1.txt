@@ -1,0 +1,20 @@
+Sitenizin kaynak kodunu görüntülemek için üç yol vardır.
+
+1. Url'ninizin başına view-source: ekleyerek kaynak kodlarınızı görüntüleyebilirsiniz.
+Örneğin; domain.com'un kaynak kodunu görüntülemek için tarayıcıya view-source:https://domain.com/ ya da view-source:http://domain.com/ yazarak girebilirsiniz.
+
+2. Kaynak kodlarını görmek istediğiniz sayfanın herhangi bir yerine  sağ tıkladığınızda, Internet Explorer için Kaynağı Görüntüle ,Chrome için Sayfa Kaynağını Görüntüle , Firefox için Sayfa Kaynağını Göster 'e tıkladığınızda kaynak kodlarınızı görüntüleyebilirsiniz.
+
+3- Chrome, Firefox ve Opera için kısayol olarak ctrl+U 'ya basarak kaynak kodunu görüntüleyebilirsiniz.
+
+-----------------------------------------------------------------------------------
+SEO META TAGS:
+
+Meta tag (Meta Etiketleri), bir web sayfası ile alakalı yapılandırılmış meta verilerin arama motoru botlarına aktarılmasını sağlamak amacıyla HTML ve XHTML belgelerinde kullanılan etiketlerdir. Meta etiketleri sayfa üzerinde bir element olarak görüntülenmeyen yalnızca sayfanın kaynak kodunda barınan ve SEO çalışmalarında, içerik ile ilgili sinyallerin arama motoru botlarına aktarılmasında kullanılan etiketlerdir.
+
+Web sayfalarının kaynak kodunda yer alan <head> </head> etiketleri arasında kullanılan meta etiketleri (meta işaretlemeleri), HTML programlama dili ile oluşturulur. Meta etiketlemeleri SEO ve web dünyasında metadata (meta veri) olarak da adlandırılırlar.
+
+https://www.searchenginejournal.com/important-tags-seo/156440/
+
+
+---------------------------------------------------------------------------------
